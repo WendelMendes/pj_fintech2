@@ -1,0 +1,112 @@
+:root {
+    --primary: #17456B;
+    --secondary: #0F1D2B;
+    --tertiary: #FFB000;
+    --quaternary: #419FB7;
+    --quat_dark: #419FB7;
+    --light: #F5F6EE;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#header .nav-link {
+    color: var(--primary);
+    margin: 0 15px 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 4px var(--primary);
+    color: var(--tertiary);
+}
+
+.button-primary-outline {
+    border-color: white;
+    color: white;
+}
+
+.button-primary-ouline:hover {
+    background-color: var(--quaternary);
+    border-color: var(--quaternary);
+}
+
+.button-primary {
+    background-color: var(--quaternary);
+    border-color: var(--quaternary);
+}
+
+.button-primary:hover {
+    background-color: var(--tertiary);
+    border-color: var(--tertiary);
+}
+
+#presentation {
+    background-image: linear-gradient(to right, #0F1D2B, #419FB7);
+    min-height: 100vh;
+}
+
+#presentation h1 {
+    color: white;
+    font-weight: 900;
+}
+
+#presentation p1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    display: block;
+}
+
+#beneficio {
+    background-color: var(--secondary);
+    min-height: 95vh;
+}
+
+#beneficio h2 {
+    color: white;
+    font-weight: 900;
+}
+
+#beneficio h3 {
+    color: var(--tertiary);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+ul{
+    color: white;
+    list-style: none;
+    font-size: 1.5em;
+    padding-right: 1.9em;
+}
+
+ul:hover{
+    color: white;
+}
+
+cite{
+    color: white;
+}
+
+footer{
+    margin-top: 10px;
+}
+
+footer p {
+    text-align: center;
+    color: #17456B;
+}
+
+@media (min-width(990px)) {
+    #header .nav-link {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .presentation-text {
+        padding-top: 25vh;
+    }
+}
